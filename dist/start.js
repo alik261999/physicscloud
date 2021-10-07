@@ -9,6 +9,7 @@ function nextPage(){
     window.sessionStorage.setItem("name",name);
     window.sessionStorage.setItem("mail",add);
     console.log(name);
-    location.href = "bootstrap.html";
+    window.open("bootstrap.html","_blank");
+    //location.href = "bootstrap.html";
     return false;
 }

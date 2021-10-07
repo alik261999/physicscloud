@@ -9,7 +9,9 @@ let mytime = setInterval(function(){
 
         if(time==60){
             calculate();
-            location.href="end.html";
+            window.close();
+            //location.href="end.html";
+            window.open("end.html","_blank");
             clearInterval(mytime);
         }
         

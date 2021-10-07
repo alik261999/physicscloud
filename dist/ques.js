@@ -177,7 +177,9 @@ let questions = [
       var x=confirm("Do you want to submit it?");
       if(x==true){
         result();
-        location.href = "end.html";
+        window.close();
+        //location.href = "end.html";
+        window.open("end.html","_blank");
       }
     }
     else{
